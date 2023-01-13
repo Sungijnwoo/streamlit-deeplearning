@@ -5,7 +5,6 @@ from PIL import Image
 import torch
 import os
 
-transform = transforms.ToPILImage()
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5n - yolov5x6, custom
 
