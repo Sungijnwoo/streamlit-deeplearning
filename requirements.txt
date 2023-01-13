@@ -4,3 +4,4 @@ torchvision
 torchaudio
 pillow
 opencv-python-headless
+ipython
