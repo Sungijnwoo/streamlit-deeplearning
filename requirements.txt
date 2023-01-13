@@ -3,3 +3,4 @@ torch
 torchvision
 torchaudio
 pillow
+opencv-python
