@@ -23,6 +23,7 @@ if image_file:
     number = len(os.listdir("./runs/detect"))
     if number == 1: number = ""
     st.image(f"./runs/detect/exp{number}/image0.jpg")
+    results.pandas().xyxy[0].name
     
     
     
